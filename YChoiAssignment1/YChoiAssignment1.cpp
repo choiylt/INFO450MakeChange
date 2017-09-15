@@ -1,5 +1,5 @@
-// YChoiAssignment1.cpp : Defines the entry point for the console application.
-//
+// YChoiAssignment1.cpp : Calculates the change for a vending machine
+// By: Tifare Choi for Info 450
 
 #include "stdafx.h"
 #include <iostream>
@@ -47,4 +47,9 @@ int main()
 	} while (cost >= 0);
 
 	return 0;
+}
+void output(int amount, string name) {
+	if (amount > 0) {
+		cout << "\t" << amount << name << endl;
+	};
 }
