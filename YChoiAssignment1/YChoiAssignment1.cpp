@@ -48,8 +48,3 @@ int main()
 
 	return 0;
 }
-void output(int amount, string name) {
-	if (amount > 0) {
-		cout << "\t" << amount << name << endl;
-	};
-}
